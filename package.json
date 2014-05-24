@@ -1,0 +1,45 @@
+{
+  "name": "gulp-jsify-html-templates",
+  "version": "0.1.0",
+  "description": "Converts HTML files into JavaScript files and populates them into a variable \"htmlTemplates\" in the global namespace.",
+  "keywords": [
+    "gulpplugin",
+    "jsify-html-templates",
+    "gulp-jsify-html-templates"
+  ],
+  "homepage": "https://github.com/craigstjean/gulp-jsify-html-templates",
+  "bugs": {
+    "url": "https://github.com/craigstjean/gulp-jsify-html-templates/issues"
+  },
+  "author": {
+    "name": "Craig St. Jean",
+    "email": "craigstjean@gmail.com",
+    "url": "https://github.com/craigstjean"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/craigstjean/gulp-jsify-html-templates.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "gulp-util": "*",
+    "map-stream": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.1.0",
+    "event-stream": "~3.0.20"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
