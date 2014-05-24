@@ -1,4 +1,5 @@
 > Converts HTML files into JavaScript files and populates them into a variable "htmlTemplates" in the global namespace.
+> 
 > Example usage of this is while using angular-router:
 > ```javascript
 template: htmlTemplates['/path/to/file.html']
